@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jarditou</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
     <header>
@@ -38,9 +38,9 @@
             <p>
                 <label for="nom">Votre nom* : </label><input type="text" name="nom" id="" pattern="^[a-z]+$" required title="Entrez votre nom"><br>
                 <label for="prenom">Votre prénom* : </label><input type="text" name="prenom" id="" pattern="^[a-z]+$" required title="Entrez votre prénom"><br>
-                <label>Sexe*</label>
+                Sexe*
                 <br>
-                <input type="radio" name="sexe" id="Féminin" required> Féminin <input type="radio" name="sexe" id="Masculin" required> Masculin <br>
+                <label><input type="radio" name="sexe" id="Féminin" required>Féminin</label> <label ><input type="radio" name="sexe" id="Masculin" required> Masculin </label> <br>
                 <label for="date de naissance">Date de naissance* : </label><input type="date" name="date de naissance" id="" pattern="^[0-9]+$" required ><br>
                 <label for="code postal">Code postal : </label> <input type="text" name="code postal" id="code postal" pattern="^[0-9]+$"><br>
                 <label for="adresse : ">Adresse : </label><input type="text" name="adresse" id="adresse"><br>
@@ -67,7 +67,7 @@
             <input type="checkbox" name="J'accepte" id="J'accepte" required> J'accepte le traitement informatique de ce formulaire<br>
             </p>
            <input type="submit" value="Envoyer">
-           <input type="submit" value="Annuler">
+           <input type="reset" value="Annuler">
         </form>
 
     </section>

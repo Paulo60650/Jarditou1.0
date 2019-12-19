@@ -1,0 +1,60 @@
+html{
+    background-color: rgb(249, 252, 255);
+}
+body{
+    margin: 2vw;
+}
+#logo{
+    cursor: pointer;
+    width: 40vw;
+    margin-top: 3vw; 
+}
+header{
+    display: inline-block;
+    width: 96vw;
+    display: flex;
+}
+
+nav{
+    padding: 20px;
+}
+li{
+    display: inline-block;
+    padding-left: 13vw;
+
+}
+.Menu
+{
+    text-decoration:underline;
+    color: rgb(55, 120, 218);
+    font-size: 3vw;
+    font-family: 'Caveat', cursive;
+}
+#jardin{
+    font-size:4vw ;
+    margin-left: 15vw;
+    width: 60vw;
+    font-family: 'Caveat', cursive;
+
+}
+#promo{
+    width: 100%;
+    height: auto;
+    border: solid black 1px;
+}
+.text{
+    width: 50%; 
+}
+#photoEngrais{
+    width: 20vw;
+    float: right;
+}
+footer{
+text-align: center;
+padding-right: 12vw;
+}
+#photoEngrais
+{
+    background-image: inherit;
+    background-image: url("../img/gazon.jpg");
+}
