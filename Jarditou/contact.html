@@ -5,36 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jarditou</title>
-    <link rel="stylesheet" href="assets/CSS/style.css">
+   <link rel="stylesheet" href="assets/CSS/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <!-- Debut de mon header -->
-        <img src="assets\img\jarditou_logo.jpg" alt="Logo Jarditou" title="Logo Jarditou" height="97">
-        <p>La qualité depuis 70 ans</p>
+        <!-- Logo et slogan -->
+        <a id="logo" href="Jarditou.html"><img src="assets\img\jarditou_logo2.png" alt="Logo Jarditou" width="90%" title="Retour accueil"></a>
+        <p id="jardin">Tout le jardin</p>
     </header>
-    <!-- Debut d'une nav -->
+    <!-- Menu -->
     <nav>
         <ul>
             <li>
-                <a href="Jarditou.html"> Accueil</a>
+                <a  class="Menu"href="Jarditou.html"> Accueil</a>
             </li>
 
             <li>
-                <a href="tableau.html">Tableau</a>
+                <a class="Menu" href="tableau.html">Tableau</a>
             </li>
             <li>
-                <a href="#">Contact</a>
+                <a class="Menu" href="#">Contact</a>
             </li>
-        </ul>
-    <img src="assets\img\promotion.jpg" alt="Promo Jarditou" title="Promo Jarditou">
+        </ul>        
     </nav>
+    <div>
+        <img src="assets\img\promotion.jpg" alt="Promo Jarditou" title="Promo Jarditou" id="promo">
+    </div>
     <!-- Debut Formulaire -->
     <section>
-        <p>* Ces zones sont obligatoire</p>
+        <p id="obligatoire">* Ces zones sont obligatoires</p>
         <form action="http://bienvu.net/script.php" method="get">
-           <fieldset>
-            <legend>Vos coordonnées</legend>
+           <fieldset class="formu">
+            <legend class="titre2">Vos coordonnées</legend>
             <p>
                 <label for="nom">Votre nom* : </label><input type="text" name="nom" id="" pattern="^[a-z]+$" required title="Entrez votre nom"><br>
                 <label for="prenom">Votre prénom* : </label><input type="text" name="prenom" id="" pattern="^[a-z]+$" required title="Entrez votre prénom"><br>
@@ -49,8 +54,9 @@
             </p>
            </fieldset>
            <!-- Fin première partie du formulaire -->
-            <fieldset>
-                <legend>Votre demande</legend>
+           <div>
+            <fieldset class="formu">
+                <legend class="titre2">Votre demande</legend>
                 <p>
                 <label for="sujet">Sujet* :</label> <select name="sujet" id="sujet"required>
                     
@@ -66,22 +72,22 @@
             <p>
             <input type="checkbox" name="J'accepte" id="J'accepte" required> J'accepte le traitement informatique de ce formulaire<br>
             </p>
-           <input type="submit" value="Envoyer">
-           <input type="reset" value="Annuler">
+            <input class="bouton" type="submit" value="Envoyer">
+            <input class="bouton" type="reset" value="Annuler">
+            </div>
         </form>
-
     </section>
         <!-- Debut du footer -->
         <footer>
             <ul>
                 <li>
-                   <a href="#">Mention légales</a>
+                   <a class="mention" href="#">Mention légales</a>
                 </li>
                 <li>
-                    <a href="#">Horaires</a>
+                    <a class="mention" href="#">Horaires</a>
                 </li>
                 <li>
-                    <a href="#">Plan du site</a>
+                    <a class="mention" href="#">Plan du site</a>
                 </li>
             </ul>
         </footer>

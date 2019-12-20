@@ -7,6 +7,8 @@
     <title>Jarditou</title>
    <link rel="stylesheet" href="assets/CSS/style.css">
    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -32,13 +34,11 @@
     <div>
         <img src="assets\img\promotion.jpg" alt="Promo Jarditou" title="Promo Jarditou" id="promo">
     </div>
-
     <!-- Debut Tableau -->
-    <hr>
     <section>
     <table>
         <tbody>
-       <tr>
+       <tr id="col1">
            <td>Photo</td>
            <td>ID</td>
            <td>Catégories</td>
@@ -46,40 +46,40 @@
            <td>Prix</td>
            <td>Couleur</td>
        </tr>
-       <tr>
-           <td><img src="assets\img\7.jpg" alt="" height="80" ></td>
+       <tr class="col2">
+           <td><img src="assets\img\7.jpg" class="photoTableau" alt="" height="80" ></td>
            <td>7</td>
            <td>Barbecues</td>
            <td>Aramis</td>
            <td>110.00€</td>
            <td>Brun</td>
        </tr>
-       <tr>
-           <td><img src="assets\img\8.jpg" alt="" height="80" ></td>
+       <tr class="col2">
+           <td><img src="assets\img\8.jpg" class="photoTableau" alt="" height="80" ></td>
            <td>8</td>
            <td>Barbecues</td>
            <td>Athos</td>
            <td>249.99€</td>
            <td>Noir</td>
        </tr>
-       <tr>
-        <td><img src="assets\img\11.jpg" alt="" height="80" ></td>
+       <tr class="col2">
+        <td><img src="assets\img\11.jpg" class="photoTableau" alt="" height="80" ></td>
         <td>11</td>
         <td>Barbecues</td>
         <td>Clatronic</td>
         <td>135.90€</td>
         <td>Chrome</td>
     </tr>
-    <tr>
-        <td><img src="assets\img\12.jpg" alt="" height="80" ></td>
+    <tr class="col2">
+        <td><img src="assets\img\12.jpg" class="photoTableau" alt="" height="80" ></td>
         <td>12</td>
         <td>Barbecues</td>
         <td>Camping</td>
         <td>88.00€</td>
         <td>Noir</td>
     </tr>
-    <tr>
-        <td><img src="assets\img\13.jpg" alt="" height="80" ></td>
+    <tr class="col2">
+        <td><img src="assets\img\13.jpg" id="photoBrouette" alt="" height="80" ></td>
         <td>13</td>
         <td>Brouettes</td>
         <td>Green</td>
@@ -94,15 +94,16 @@
     <footer>
         <ul>
             <li>
-               <a href="#">Mention légales</a>
+               <a class="mention" href="#">Mention légales</a>
             </li>
             <li>
-                <a href="#">Horaires</a>
+                <a class="mention" href="#">Horaires</a>
             </li>
             <li>
-                <a href="#">Plan du site</a>
+                <a class="mention" href="#">Plan du site</a>
             </li>
         </ul>
     </footer>
 </body>
 </html>
+   

@@ -1,5 +1,6 @@
+/* Debut de la page d'accueil */
 html{
-    background-color: rgb(249, 252, 255);
+    background-color: #EFEFEF;
 }
 body{
     margin: 2vw;
@@ -29,32 +30,102 @@ li{
     color: rgb(55, 120, 218);
     font-size: 3vw;
     font-family: 'Caveat', cursive;
+
 }
 #jardin{
-    font-size:4vw ;
+    font-size: 60px;
     margin-left: 15vw;
     width: 60vw;
-    font-family: 'Caveat', cursive;
+    font-family: 'Abril Fatface', cursive;
 
 }
 #promo{
     width: 100%;
     height: auto;
-    border: solid black 1px;
+    border: solid black 2px;
+    border-radius: 8px;
+    box-shadow: silver 2px 2px;
+    
+}
+/* Texte d'accueil */
+.titre{
+    margin-left: 1vw;
+}
+#para{
+    border: black solid 2px;
+    border-radius: 8px;
+    box-shadow: 5px black;
+    background-color: white;
 }
 .text{
     width: 50%; 
+    font-size: 1,5vw;
+    margin-left: 1vw;
 }
+/* Publicité */
 #photoEngrais{
     width: 20vw;
     float: right;
-}
-footer{
-text-align: center;
-padding-right: 12vw;
-}
-#photoEngrais
-{
     background-image: inherit;
     background-image: url("../img/gazon.jpg");
+    box-shadow: black 1px;
 }
+/* Debut footer */
+footer{
+    text-align: center;
+    padding-right: 12vw;
+    border-radius: 8px ;
+    background-color:black;
+    border:solid ;
+}
+.mention{
+    color: white;
+}
+/* Debut de la page tableau  */
+
+table{
+    border: 2px black solid;
+    width: 85%;
+    height: auto;
+    background-color: white;
+    margin: 0vw 7vw 0vw 7vw ;
+    border-radius: 5px;
+}
+td{
+    border: 1px black solid ;
+    border-radius: 5px;
+}
+.photoTableau{
+    width: auto;
+    height: 15vw;
+    margin-left: 13vw;
+}
+#photoBrouette{
+    width: 18vw;
+    height: auto;
+    margin-left: 10vw;
+}
+#col1{
+    font-size: 2vw;
+    font-family:'Indie Flower', cursive;
+}
+.col2{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+/* Debut page contact */
+#obligatoire{
+    color: red;
+}
+.formu{
+    border-radius: 8px;
+}
+.titre2{
+    font-weight: 900;
+}
+.bouton{
+    margin-bottom: 1vw;
+    border-radius: 5px;
+}
+
+
