@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) 
+{ 
+    /* Publicité */
+    #photoEngrais  
+    { 
+        width: 0%;
+        float: none;
+    } 
+    /* Menu */
+    .Menu
+    {
+        display: inherit;
+        font-size: 120%;
+    }
+    li
+    {
+        display: inherit;
+        padding-left: 0vw;
+    }
+    /* Text d'accueil */
+    .titre
+    {
+        font-size: 95%;
+    }
+    .text
+    {
+        font-size: 90%;
+        text-align: justify;
+        width: 95%;
+    }
+    /* Footer */
+    .mention
+    {
+        font-size: 115%;
+        display: inline-block;
+        padding-left: 13vw;
+    }
+    }
+    footer 
+    {
+        width: 90%;
+        height: 70%;
+    }
+    /* Coordonné */
+    .formu
+    {
+        font-size: 95%;
+    }
+    .titre2
+    {
+        font-size: 110%;
+    }
+    .bouton
+    {
+        font-size: 90%;
+    }
+}
+    @media screen and (min-width: 627px) 
+{
+    .bouton
+    {
+        font-size: 80%;
+    }
+    .accept
+    {
+        font-size: 90%;
+    }
+} 
